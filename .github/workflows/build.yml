@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: appium/WebDriverAgent
-          ref: master
+          ref: d17782422d55ff1e5e0ceb74eb1fd509cc0c35b6  # WDA 16.14.0 pinned by iphone-use
           submodules: true
 
       - name: Setup Xcode 16
